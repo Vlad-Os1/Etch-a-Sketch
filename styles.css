@@ -52,9 +52,6 @@ body{
 }
 
 .gridElement:hover {
-  transform: scale(1.1);
-}
-
-.noHover:hover {
-  transform: none;
+  background-color: #BCC5CD;
+  opacity: 0.4;
 }
