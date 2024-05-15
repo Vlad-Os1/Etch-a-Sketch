@@ -49,9 +49,6 @@ body{
 .gridElement {
   box-sizing: border-box;
   border: 0px solid #000;
+  user-select: none; 
 }
 
-.gridElement:hover {
-  background-color: #BCC5CD;
-  opacity: 0.4;
-}
