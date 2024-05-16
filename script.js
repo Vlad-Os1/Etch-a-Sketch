@@ -78,7 +78,7 @@ function generateRandomColor() {
 
 
 
-grid.addEventListener ("mousemove", (e) => {
+grid.addEventListener ("mouseover", (e) => {
   if (isDrawing && e.target.classList.contains("gridElement")){
     e.target.style.backgroundColor = color;
   };
